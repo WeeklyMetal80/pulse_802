@@ -1,0 +1,21 @@
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Museo Sans', sans-serif;
+}
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.advantages {
+    &__header {
+        &_sm {
+            display: none;
+        }
+    }
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'base/media';
