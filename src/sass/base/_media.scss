@@ -78,16 +78,8 @@
 }
 @media (max-width: 575px) {
     .advantages {
-        &__header {
-            &_l {
-                display: none;
-            }
-            &_sm {
-                display: block;
-                font-size: 26px;
-                text-align: center;
-
-            }
+        .title {
+            font-size: 26px;
         }
     }
 }
